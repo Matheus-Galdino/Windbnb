@@ -1,0 +1,16 @@
+$container-padding: 2rem;
+$primary-color: #eb5757;
+$primary-hover-color: #e62d2d;
+$breakpoint-tablet: 850px;
+$breakpoint-desktop: 1650px;
+
+@media screen and (min-width: $breakpoint-desktop) {
+  $container-padding: 3rem 10rem;
+  #app {
+    padding: $container-padding !important;
+  }
+
+  .search {
+    padding: $container-padding !important;
+  }
+}
